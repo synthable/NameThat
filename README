@@ -3,8 +3,3 @@ Android NameThat version 1.2 beta
 Android NameThat is a port of the popular catch phrase game for iOS called NameThat.
 This port adds the ability to add/edit/delete words from the list.
 Future versions will allow add/edit/delete of categories.
-
-NOTES:
-
-Android NameThat uses iOS NameThat's word and category list database.  Because it has not been released under an open source license I cannot include it in this project.  Therefore there is no namethat.db by default and this application will not work without one.
-The license issue should be taken care of soon or a new database will be build from scratch.
