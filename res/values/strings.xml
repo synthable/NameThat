@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">NameThat</string>
+<string name="rules">NameThat is played in two teams and the goal for each team is to get their team member(s) to say the word or word phrase displayed in the screen. \n\nOne member of a team starts the timer and tries to get his or her team to guess the displayed word or phrase. A clue-giver can make any physical gesture and give almost any verbal clue, but may not say a word that rhymes with any of the words, give the first letter of a word, say the number of syllables, or say part of any word in the clue (e.g., "worry" for "worry wart"). \n\nWhen the team guesses correctly, the other team takes its turn. Play continues until the timer runs out. The team not gussing when time runs out scores a point. \n\nThe first team to score seven points wins.</string>
+<string name="menu_options_settings">Settings</string>
+    <string name="menu_options_rules">Rules</string>
+    <string name="menu_options_play">Play</string>
+<string name="edit_word_list">Edit Word List</string>
+<string name="add_word">Add Word</string>
+    <string name="save">Save</string>
+    <string name="edit_word">Edit Word</string>
+    <string name="delete_word_confirm">Are you sure you want to delete that word?</string>
+    <string name="confirm">Confirm</string>
+    <string name="limit_reached">Limit reached</string>
+    <string name="winner">Winner!</string>
+    <string name="times_up">Times up!</string>
+<string name="words_add">Add</string>
+<string name="importing_wordlist">Importing word list...</string>
+    <string name="select_countdown_timer">Select Countdown Timer</string>
+</resources>

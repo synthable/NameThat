@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="5" android:versionName="1.2b"
+    package="com.grasscove.namethat" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:debuggable="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:label="@string/app_name" android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".CategoriesList"/>
+        <activity android:name=".SettingsList"/>
+        <activity android:name=".Play"
+            android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".WordsList"/>
+        <activity android:name=".Rules"/>
+        <provider
+            android:authorities="com.grasscove.namethat.provider.namethatprovider" android:name="com.grasscove.namethat.provider.NameThatProvider"/>
+        <activity android:name=".Settings2"/>
+    </application>
+    <uses-sdk android:minSdkVersion="4"/>
+</manifest>

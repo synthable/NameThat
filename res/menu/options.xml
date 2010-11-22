@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_options_play" android:title="@string/menu_options_play"
+		android:icon="@drawable/play_menu_icon" />
+	<item android:id="@+id/menu_options_rules" android:title="@string/menu_options_rules"
+		android:icon="@drawable/rules_menu_icon" />
+	<item android:id="@+id/menu_options_settings" android:title="@string/menu_options_settings"
+		android:icon="@drawable/settings_menu_icon" />
+</menu>

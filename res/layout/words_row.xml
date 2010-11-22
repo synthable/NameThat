@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:textSize="24sp" android:textColor="#FFFFFF" android:textStyle="bold" android:gravity="bottom|center_horizontal" android:paddingBottom="10dip" android:paddingTop="10dip" android:text="Word" android:id="@+id/words_row_text"></TextView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/page_bg" android:gravity="center">
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/new_game_btn" android:layout_marginRight="10dp" android:layout_marginLeft="20dp" android:background="@drawable/home_new_game_button" android:onClick="onClick"></ImageView>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/settings_btn"
+		android:layout_toRightOf="@+id/new_game_btn" android:layout_marginLeft="20dp" android:layout_marginBottom="50dp" android:background="@drawable/home_settings_button" android:onClick="onClick"></ImageView>
+	<!-- <ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/about_btn"
+		android:layout_below="@+id/new_game_btn" android:background="@drawable/about_off" android:onClick="onClickListener" android:layout_margin="15dp"></ImageView>
+	-->
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/rules_btn"
+		android:layout_below="@+id/settings_btn" android:layout_centerHorizontal="true" android:layout_marginRight="100dp" android:background="@drawable/home_rules_button" android:onClick="onClick"></ImageView>
+</RelativeLayout>

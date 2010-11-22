@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ListPreference android:title="Countdown Time"
+		android:key="countdown_time" android:defaultValue="1" android:entries="@array/minutes"
+		android:entryValues="@array/minutes_values" />
+
+</PreferenceScreen>
